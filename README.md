@@ -33,7 +33,7 @@ Projekt obejmuje pełny proces analizy danych:
 - `02_visualisation.ipynb` – analiza i wizualizacja wyników
 - `02_visualisation.html` – analiza i wizualizacja wyników w formacie html
 - `data/` – pliki źródłowe (ranking ELO)
-- matches_elo.csv - dane po transformacji używane do wizualizacji
+- `matches_elo.csv` - dane po transformacji używane do wizualizacji
 
 ## Wnioski
 Analiza pokazuje, że Mbappé ma większy wpływ na zdobywane bramki niż Vinícius w większości meczów,
