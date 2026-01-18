@@ -1,6 +1,6 @@
 ## English
 
-# Analysis of the Impact of Mbappe and Vinecius on Real Madrid’s Results
+# Analysis of the Impact of Mbappe and Vinicius on Real Madrid’s Results
 
 ## Project Description
 The goal of this project is a comparative analysis of the impact of Kylian Mbappe and Vinicius Junior
