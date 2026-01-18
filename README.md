@@ -1,3 +1,53 @@
+## English
+
+# Analysis of the Impact of Mbappe and Vinecius on Real Madrid’s Results
+
+## Project Description
+The goal of this project is a comparative analysis of the impact of Kylian Mbappe and Vinicius Junior
+in Real Madrid matches during the 2024/25 and 2025/26 seasons, and an examination of how this impact
+changes depending on the strength of the opponent, measured using the ELO rating.
+
+The project covers the full data analysis workflow:
+- data acquisition,
+- data cleaning and transformation,
+- integration of match data with ELO rankings,
+- result visualization and interpretation of findings.
+
+## Data Sources
+- Match data: football-data.org API  
+- Team ELO rankings: ClubElo
+
+## Technologies
+- Python
+- pandas
+- matplotlib
+- requests
+- Jupyter Notebook
+
+## Scope of Analysis
+- analysis of match results against weaker and stronger opponents (ELO > 1800),
+- comparison of goal contributions (goals + assists),
+- visualization of differences between the players.
+
+## Project Structure
+- `01_data_preparation.ipynb` – data acquisition and preprocessing
+- `01_data_preparation.html` – data acquisition and preprocessing (HTML version)
+- `02_visualisation.ipynb` – analysis and visualization of results
+- `02_visualisation.html` – analysis and visualization of results (HTML version)
+- `data/` – source files (ELO rankings)
+- `matches_elo.csv` – transformed data used for visualization
+
+## Conclusions
+The analysis shows that Mbappe has a greater impact on goal scoring than Vinicius in most matches.
+However, these differences decrease in games against the strongest opponents, indicating that
+a broader context should be considered when comparing the performance of both players.
+
+## Note
+Part of the code that retrieves data from the API requires generating a personal API key by creating
+an account on football-data.org. The code will not run correctly without prior configuration.
+
+## Polski
+
 # Analiza wpływu Mbappe i Viniciusa na wyniki Realu Madryt
 
 ## Opis projektu
